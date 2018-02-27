@@ -14,7 +14,7 @@ public class HelloWorldController {
 
     private static final String GREETING = "Greetings from Spring Boot!";
 
-    private final FeatureManager manager;
+//    private final FeatureManager manager;
 
     public static final Feature HELLO_WORLD = new NamedFeature("HELLO_WORLD");
     
