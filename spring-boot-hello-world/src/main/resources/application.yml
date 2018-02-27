@@ -9,5 +9,7 @@ togglz:
       enabled: true
     REVERSE_GREETING:
       enabled: false
+    HELLO_WORLD2:
+      enabled: true
   console:
     secured: false
