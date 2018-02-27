@@ -10,11 +10,20 @@ import org.togglz.core.util.NamedFeature;
 @RestController
 public class Hello2Controller {
 
+	private final FeatureManager manager;
+	public static final Feature HELLO_WORLD2 = new NamedFeature("HELLO_WORLD2");
+	public Hello2Controller(FeatureManager manager) {
+		this.manager = manager;
+	}
+	
 	@RequestMapping("/hello")
     public ResponseEntity<?> hello() {
  
         StringBuilder sb = new StringBuilder("Hello Controller 2");
-        return ResponseEntity.ok().body(sb.toString());
+        if (manager.isActive(HELLO_WORLD2)) {
+            return ResponseEntity.ok().body(sb.toString());
+        }       
+        return ResponseEntity.ok().body("Hello World 2 -- 404 Not Found");
 
     }
 }
