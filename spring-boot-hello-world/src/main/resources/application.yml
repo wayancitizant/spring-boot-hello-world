@@ -2,7 +2,7 @@ logging:
   level:
     org.togglz: DEBUG
 server:
-  port: 9000
+  port: 9001
 togglz:
   features:
     HELLO_WORLD:
