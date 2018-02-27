@@ -25,9 +25,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:togglz/togglz-samples.git</connection>
-    <developerConnection>scm:git:git@github.com:togglz/togglz-samples.git</developerConnection>
-    <url>https://github.com/togglz/togglz-samples</url>
+    <connection>scm:git:git@github.com:rebarrett57/spring-boot-hello-world.git</connection>
+    <developerConnection>scm:git:git@github.com:rbarrett57/spring-boot-hello-world.git</developerConnection>
+    <url>https://github.com/rebarrett57/spring-boot-hello-world.git</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -44,9 +44,6 @@
 
   <modules>
     <module>spring-boot-hello-world</module>
-    <module>spring-boot-no-feature-provider-or-feature-enums</module>
-    <module>spring-boot-security</module>
-    <module>spring-boot-thymeleaf</module>
   </modules>
 
   <developers>
