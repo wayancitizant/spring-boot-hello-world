@@ -13,8 +13,9 @@ import java.util.Date;
 public class HelloWorldController {
 
     private static final String GREETING = "Greetings from Spring Boot!";
+    private static final String DATE_TIME = new Date().toString();
 
-//    private final FeatureManager manager;
+    private final FeatureManager manager;
 
     public static final Feature HELLO_WORLD = new NamedFeature("HELLO_WORLD");
     
