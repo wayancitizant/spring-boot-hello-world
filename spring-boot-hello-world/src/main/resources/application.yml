@@ -11,5 +11,7 @@ togglz:
       enabled: false
     HELLO_WORLD2:
       enabled: true
+    HELLO_WORLD3:
+      enabled: true
   console:
     secured: false
